@@ -1,0 +1,179 @@
+:root{
+   --s:rgba(126, 255, 52, 0.275);
+   /* --ss:rgba(180, 255, 136, 0.256); */
+   --bg: #232322;
+   --ss:linear-gradient(270deg,var(--s), rgba(180, 255, 136, 0.256))
+}
+
+*{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+body{
+    background-color: #232322;
+    position: relative;
+padding: 10px 0 ;
+height: auto;
+    /* overflow: hidden !important; */
+    max-width: 100vw  !important;
+}
+
+
+
+.pr{
+    height: 400px;
+}
+
+img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: var(--s);
+    text-transform: capitalize;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+h1{
+    margin-bottom: 15px;
+}
+
+.prix{
+    color: var(--s);
+    margin: 10px 0;
+}
+
+p{
+    margin-top: 20px;
+    /* letter-spacing: 2px; */
+}
+
+
+.photos{
+    width: auto;
+    height: 100px;
+    display: flex;
+    overflow-x: scroll;
+    /* justify-content: space-between; */
+}
+
+.photos img{
+    width: 19%;
+    border-radius: 0;
+margin: 0 1px 0 0;
+}
+
+ .to{
+        display: none;
+    }
+
+
+@media (max-width: 770px) {
+    .to{
+        display: block;
+    }
+    .bo{
+        display: none;
+    }
+}
+
+.form{
+    color: white;
+    transition: 0.5s;
+}
+
+.deplay{
+    position: absolute;
+    left: 200%;
+    /* display: none; */
+}
+.deplay-l{
+    opacity: 0;
+    transition: 1s;
+}
+
+h5, 
+.label{
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 15px;
+     background-color: var(--s);
+     width: fit-content;
+     margin: 10px auto;
+     padding: 0 5px;
+}
+
+input{
+padding: 8px;
+border-radius: 8px;
+border: none;
+font-size: 20px;
+width: 350px;
+}
+input[type="submit"]{
+    background-color: var(--s);
+    color: white;
+    font-size: 20px;
+    width: fit-content;
+    padding: 10px;
+}
+
+input:focus{
+    outline: none;
+    color: white;
+    background-color: rgba(146, 236, 146, 0.152);
+}
+
+i{
+    color: white;
+}
+
+.pForm{
+    background-color: rgba(146, 236, 146, 0.152);
+}
+
+.label{
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.red{
+    background-color: rgb(175, 140, 140);
+}
+.op{
+    transition: 0.5s;
+    opacity: 0;
+}
+
+
+.thanks{
+    color: white;
+}
+
+.thanks > p{
+    font-size: 20px;
+    width: fit-content;
+    margin: 1px auto;
+    background-color: var(--s);
+    padding: 0px 15px;
+}
+
+.thanks p i{
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+
+
+.thanks > i {
+    font-size:100px;
+    color: var(--s);
+  margin: 50px 0;
+}
+
